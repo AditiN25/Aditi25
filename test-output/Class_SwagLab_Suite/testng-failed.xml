@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Class_SwagLab_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AllTestCases_Test(failed)">
+    <classes>
+      <class name="testCases.Inventory_Page_Test">
+        <methods>
+          <include name="verifyInventoryPageTitle"/>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testCases.Inventory_Page_Test -->
+    </classes>
+  </test> <!-- AllTestCases_Test(failed) -->
+</suite> <!-- Failed suite [Class_SwagLab_Suite] -->

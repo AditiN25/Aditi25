@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="11" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Twitter logo is present = true]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-06-15T17:00:41 IST" name="Default suite" finished-at="2024-06-15T17:00:47 IST" duration-ms="6366">
+    <groups>
+    </groups>
+    <test started-at="2024-06-15T17:00:41 IST" name="Default test" finished-at="2024-06-15T17:00:47 IST" duration-ms="6366">
+      <class name="testCases.CheckOut_Complete_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.CheckOut_Complete_Test@8519cb4]" started-at="2024-06-15T17:00:41 IST" name="setUp" finished-at="2024-06-15T17:00:47 IST" duration-ms="6047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ImagePonyExpress()[pri:0, instance:testCases.CheckOut_Complete_Test@8519cb4]" started-at="2024-06-15T17:00:47 IST" name="ImagePonyExpress" finished-at="2024-06-15T17:00:47 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Twitter logo is present = true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ImagePonyExpress -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.CheckOut_Complete_Test@8519cb4]" started-at="2024-06-15T17:00:47 IST" name="closeBrowser" finished-at="2024-06-15T17:00:47 IST" duration-ms="208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ImagePonyExpress status=SUCCESS method=CheckOut_Complete_Test.ImagePonyExpress()[pri:0, instance:testCases.CheckOut_Complete_Test@8519cb4] output=Twitter logo is present = true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.CheckOut_Complete_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
